@@ -11,7 +11,7 @@ int main()
 {
     Window window("Cloth Simulation Engine", 1200, 800);
 
-    Camera3D camera(glm::vec3(-1.0f, 2.62f, 2.0f), glm::vec3(0.2f, 0.8f, -0.5f), -60.0f, -34.0f);
+    Camera3D camera(glm::vec3(-1.0f, 2.62f, 2.0f), glm::vec3(0.0f, 1.0f, 0.0f), -60.0f, -34.0f);
 
     glm::mat4 View = glm::mat4(1.0f);
     glm::mat4 Projection = glm::perspective(45.0f, (float)window.getWidth() / (float)window.getHeight(), 0.1f, 100.0f);
