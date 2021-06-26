@@ -5,6 +5,6 @@ The particles are constrained using their rest distance, I used verlet integrati
 
 ![](https://github.com/Pikachuxxxx/VerletCloth/blob/master/verletcloth.png)
 
-#controls
+# controls
 Right click on the mouse and use WASD to move around the scene.
 Use the imgui controls to tweak the behaviour of the cloth.
